@@ -1,5 +1,7 @@
 # Zig Vanilla 7.0 Realm Client 
 
+Client made to work with my vanilla 7.0 source 
+
 ### Imported from https://github.com/Slendergo/zig-client
 
 This project is a modern and efficient Private Server Client built using Zig, a robust, optimal, and clear programming language. It is designed specifically to interface with the provided server source, tracking the latest master builds of Zig.
