@@ -135,7 +135,7 @@ fn networkTick(allocator: *std.mem.Allocator) void {
                 if (selected_char_id != 65535 and !sent_hello) {
                     network.queuePacket(.{ .hello = .{
                         .build_ver = settings.build_version,
-                        .game_id = -2,
+                        .game_id = -1,
                         .email = current_account.email,
                         .password = current_account.password,
                         .char_id = @intCast(selected_char_id),
